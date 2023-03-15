@@ -1,0 +1,305 @@
+/* CSS variables */
+:root {
+  --primary-brand-color: #4d5ae5;
+  --pressed-color: #404bbf;
+  --title-text-color: #2e2f42;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --success-color: #31d0aa;
+  --hero-background-color: #2e2f42;
+  --accent-color: #e7e9fc;
+  --light-mode-background: #f4f4fd;
+  --hero-text-color: #ffffff;
+}
+body {
+  background: #ffffff;
+  color: var(--title-text-color);
+  font-family: Roboto, Raleway, sans-serif;
+  font-style: normal;
+}
+/* Header Style */
+ul {
+  list-style: none;
+}
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* NAVY BLUE */
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.header-logo-span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+
+.header-list {
+  /* Body Medium */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.header-list:active {
+  color: var(--pressed-color);
+}
+
+.header-adress {
+  /* Body */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+  /* SLATE */
+  color: var(--hero-background);
+  text-decoration: none;
+}
+.header-adress:active {
+  color: var(--pressed-color);
+}
+.header-adress:hover {
+  color: var(--pressed-color);
+}
+
+.header-adress:focus {
+  color: var(--pressed-color);
+}
+/* HERO Section */
+.hero-section {
+  background-color: var(--hero-background-color);
+}
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--hero-text-color);
+}
+.hero-btn {
+  background-color: var(--primary-brand-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--hero-text-color);
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: var(--pressed-color);
+}
+.hero-btn:focus {
+  background-color: var(--pressed-color);
+}
+/* Section About Webstudio */
+
+.about-title-section {
+  display: none;
+}
+
+.about-title-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color: var(--title-text-color);
+}
+
+.about-title-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.02em;
+  /* SLATE */
+  color: var(--text-color);
+}
+
+/* Section What are we doing */
+.wawd-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  /* NAVY BLUE */
+  color: var(--title-text-color);
+}
+/* Section Our Team */
+.ourteam-section {
+  background: var(--accent-color);
+}
+.ourteam-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  /* NAVY BLUE */
+  color: var(--title-text-color);
+}
+.ourteam-title-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color: var(--title-text-color);
+}
+.ourteam-item-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* SLATE */
+  color: var(--text-color);
+}
+
+/* Footer */
+.footer {
+  background: var(--hero-background-color);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* CLOUD */
+  color: var(--light-mode-background);
+  text-decoration: none;
+}
+
+.footer-logo-span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+.footer-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.02em;
+  /* CORNFLOWER */
+  color: var(--accent-color);
+}
+/* PORTFOLIO PAGE */
+
+/* Navigation Page Section */
+.nav-title {
+  display: none;
+}
+.nav-button {
+  background: var(--light-mode-background);
+  /* CORNFLOWER */
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+  color: var(--primary-brand-color);
+}
+
+/* Projects Section */
+.Projects-title {
+  display: none;
+}
+.project-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+  /* NAVY BLUE */
+  color: var(--title-text-color);
+}
+.project-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+  /* SLATE */
+  color: var(--text-color);
+}
